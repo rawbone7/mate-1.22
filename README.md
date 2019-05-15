@@ -7,7 +7,9 @@
 * libmatemixer [[source](https://github.com/mate-desktop/libmatemixer)] [[fedora](https://src.fedoraproject.org/rpms/libmatemixer)] [[spec](https://src.fedoraproject.org/rpms/libmatemixer/raw/master/f/libmatemixer.spec)]
 * libmateweather [[source](https://github.com/mate-desktop/libmateweather)] [[fedora](https://src.fedoraproject.org/rpms/libmateweather)] [[spec](https://src.fedoraproject.org/rpms/libmateweather/raw/master/f/libmateweather.spec)]
 * mate-desktop [[source](https://github.com/mate-desktop/mate-desktop)] [[fedora](https://src.fedoraproject.org/rpms/mate-desktop)] [[spec](https://src.fedoraproject.org/rpms/mate-desktop/raw/master/f/mate-desktop.spec)]
-
+* libXpresent [[source]()] [[fedora](https://src.fedoraproject.org/rpms/libXpresent)] [[spec](https://src.fedoraproject.org/rpms/libXpresent/raw/master/f/libXpresent.spec)]
+* marco [[source](https://github.com/mate-desktop/marco)] [[fedora](https://src.fedoraproject.org/rpms/marco)] [[spec](https://src.fedoraproject.org/rpms/marco/raw/master/f/marco.spec)]
 
 
 [[source]()] [[fedora]()] [[spec]()]
+  
