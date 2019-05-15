@@ -1,0 +1,31 @@
+[org.mate.background]
+picture-filename='/usr/share/backgrounds/default.xml'
+
+[org.mate.panel]
+default-layout='rhel'
+
+[org.mate.interface]
+gtk-theme='BlueMenta'
+icon-theme='mate'
+
+[org.mate.Marco.general]
+theme='BlueMenta'
+
+[org.mate.peripherals-mouse]
+cursor-theme='mate'
+
+[org.mate.Marco.general]
+side-by-side-tiling=false
+center-new-windows=false
+compositing-manager=true
+
+[org.mate.caja.preferences]
+enable-delete=true
+
+[org.mate.terminal.profile]
+title-mode='ignore'
+title='Mate Terminal'
+
+[org.mate.session]
+required-components-list=['windowmanager', 'panel', 'filemanager']
+
