@@ -15,8 +15,12 @@
 * mate-notification-daemon [[source](https://github.com/mate-desktop/mate-notification-daemon)] [[fedora](https://src.fedoraproject.org/rpms/mate-notification-daemon)] [[spec](https://src.fedoraproject.org/rpms/mate-notification-daemon/raw/master/f/mate-notification-daemon.spec)]
 * mate-settings-daemon [[source](https://github.com/mate-desktop/mate-settings-daemon)] [[fedora](https://src.fedoraproject.org/rpms/mate-settings-daemon)] [[spec](https://src.fedoraproject.org/rpms/mate-settings-daemon/raw/master/f/mate-settings-daemon.spec)]
 * mate-control-center [[source](https://github.com/mate-desktop/mate-control-center)] [[fedora](https://src.fedoraproject.org/rpms/mate-control-center)] [[spec](https://src.fedoraproject.org/rpms/mate-control-center/raw/master/f/mate-control-center.spec)]
+* mate-polkit [[source](https://github.com/mate-desktop/mate-polkit)] [[fedora](https://src.fedoraproject.org/rpms/mate-polkit)] [[spec](https://src.fedoraproject.org/rpms/mate-polkit/raw/master/f/mate-polkit.spec)]
 * mate-user-guide [[source](https://github.com/mate-desktop/mate-user-guide)] [[fedora](https://src.fedoraproject.org/rpms/mate-user-guide)] [[spec](https://src.fedoraproject.org/rpms/mate-user-guide/raw/master/f/mate-user-guide.spec)]
 * caja _(1.20)_ [[source](https://github.com/mate-desktop/caja)] [[fedora](https://src.fedoraproject.org/rpms/caja/tree/bd1be43f6fedb4e8b9ce99ca4cab2076cba61f1b)] [[spec](https://src.fedoraproject.org/rpms/caja/raw/bd1be43f6fedb4e8b9ce99ca4cab2076cba61f1b/f/caja.spec)]
+* mate-backgrounds [[source](https://github.com/mate-desktop/mate-backgrounds)] [[fedora](https://src.fedoraproject.org/rpms/mate-backgrounds)] [[spec](https://src.fedoraproject.org/rpms/mate-backgrounds/raw/master/f/mate-backgrounds.spec)]
+* mate-themes [[source](https://github.com/mate-desktop/mate-themes)] [[fedora](https://src.fedoraproject.org/rpms/mate-themes)] [[spec](https://src.fedoraproject.org/rpms/mate-themes/raw/master/f/mate-themes.spec)]
+* mate-icon-theme [[source](https://github.com/mate-desktop/mate-icon-theme)] [[fedora](https://src.fedoraproject.org/rpms/mate-icon-theme)] [[spec](https://src.fedoraproject.org/rpms/mate-icon-theme/raw/master/f/mate-icon-theme.spec)]
 
 
 
