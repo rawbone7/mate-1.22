@@ -1,0 +1,32 @@
+From cf3d6864962a8b4877cab3a7852f73cdb8671deb Mon Sep 17 00:00:00 2001
+From: monsta <monsta@inbox.ru>
+Date: Fri, 3 May 2019 13:12:18 +0300
+Subject: [PATCH] locations: change weather station for Rostov-on-Don, Russia
+
+it's in the new airport now, and the old airport is closed:
+
+https://en.wikipedia.org/wiki/Platov_International_Airport
+https://en.wikipedia.org/wiki/Rostov-on-Don_Airport
+---
+ data/Locations.xml.in | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/data/Locations.xml.in b/data/Locations.xml.in
+index 9c5119c..ec6ad70 100644
+--- a/data/Locations.xml.in
++++ b/data/Locations.xml.in
+@@ -18655,9 +18655,9 @@
+         <coordinates>47.236389 39.713889</coordinates>
+         <location>
+           <name>Rostov</name>
+-          <code>URRR</code>
++          <code>URRP</code>
+           <tz-hint>Europe/Moscow</tz-hint>
+-          <coordinates>47.266667 39.816667</coordinates>
++          <coordinates>47.493889 39.924722</coordinates>
+         </location>
+       </city>
+       <city>
+-- 
+2.21.0
+
