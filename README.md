@@ -9,7 +9,7 @@
 * mate-desktop [[source](https://github.com/mate-desktop/mate-desktop)] [[fedora](https://src.fedoraproject.org/rpms/mate-desktop)] [[spec](https://src.fedoraproject.org/rpms/mate-desktop/raw/master/f/mate-desktop.spec)]
 * libXpresent [[source]()] [[fedora](https://src.fedoraproject.org/rpms/libXpresent)] [[spec](https://src.fedoraproject.org/rpms/libXpresent/raw/master/f/libXpresent.spec)]
 * marco [[source](https://github.com/mate-desktop/marco)] [[fedora](https://src.fedoraproject.org/rpms/marco)] [[spec](https://src.fedoraproject.org/rpms/marco/raw/master/f/marco.spec)]
+* mate-panel [[source](https://github.com/mate-desktop/mate-panel)] [[fedora](https://src.fedoraproject.org/rpms/mate-panel)] [[spec](https://src.fedoraproject.org/rpms/mate-panel/raw/master/f/mate-panel.spec)]
 
-
+[[source](https://github.com/mate-desktop/)] [[fedora](https://src.fedoraproject.org/rpms/)] [[spec](https://src.fedoraproject.org/rpms//raw/master/f/.spec)]
 [[source]()] [[fedora]()] [[spec]()]
-  

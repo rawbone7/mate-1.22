@@ -1,0 +1,40 @@
+From 93a6db001dbf9400e8e526b754c0627e4761b016 Mon Sep 17 00:00:00 2001
+From: lukefromdc <lukefromdc@hushmail.com>
+Date: Mon, 6 May 2019 02:04:12 -0400
+Subject: [PATCH] Fix panel applet keyboard focus trap
+
+Do not open the context menu on tab-or on anything but the menu key. Note that Return must be used by some applets (e.g. the clock) for something else
+---
+ libmate-panel-applet/mate-panel-applet.c | 12 +++++++++---
+ 1 file changed, 9 insertions(+), 3 deletions(-)
+
+diff --git a/libmate-panel-applet/mate-panel-applet.c b/libmate-panel-applet/mate-panel-applet.c
+index d7d510e..e98fc08 100644
+--- a/libmate-panel-applet/mate-panel-applet.c
++++ b/libmate-panel-applet/mate-panel-applet.c
+@@ -985,13 +985,19 @@ mate_panel_applet_button_release (GtkWidget      *widget,
+ 	return mate_panel_applet_button_event (applet, event);
+ }
+ 
++/*Open the applet context menu only on Menu key
++ *Do not open it on Return or some applets won't work
++ */
+ static gboolean
+ mate_panel_applet_key_press_event (GtkWidget   *widget,
+ 			      GdkEventKey *event)
+ {
+-	mate_panel_applet_menu_popup (MATE_PANEL_APPLET (widget), (GdkEvent *) event);
+-
+-	return TRUE;
++    if (event->keyval == GDK_KEY_Menu) {
++        mate_panel_applet_menu_popup (MATE_PANEL_APPLET (widget), (GdkEvent *) event);
++        return TRUE;
++    }
++    else
++        return FALSE;
+ }
+ 
+ static void
+-- 
+2.21.0
+
