@@ -1,0 +1,149 @@
+From f4ebba13856d52a0f85d8027b03b9c49c51b7f14 Mon Sep 17 00:00:00 2001
+From: rbuj <robert.buj@gmail.com>
+Date: Fri, 22 Mar 2019 07:17:14 +0100
+Subject: [PATCH 1/6] Rename gnome-power-manager.png to mate-power-manager.png
+
+---
+ icon-themes/ContrastHigh/16x16/apps/Makefile.am     |   2 +-
+ ...ome-power-manager.png => mate-power-manager.png} | Bin
+ icon-themes/ContrastHigh/22x22/apps/Makefile.am     |   2 +-
+ ...ome-power-manager.png => mate-power-manager.png} | Bin
+ icon-themes/ContrastHigh/24x24/apps/Makefile.am     |   2 +-
+ ...ome-power-manager.png => mate-power-manager.png} | Bin
+ icon-themes/ContrastHigh/256x256/apps/Makefile.am   |   2 +-
+ ...ome-power-manager.png => mate-power-manager.png} | Bin
+ icon-themes/ContrastHigh/32x32/apps/Makefile.am     |   2 +-
+ ...ome-power-manager.png => mate-power-manager.png} | Bin
+ icon-themes/ContrastHigh/48x48/apps/Makefile.am     |   2 +-
+ ...ome-power-manager.png => mate-power-manager.png} | Bin
+ 12 files changed, 6 insertions(+), 6 deletions(-)
+ rename icon-themes/ContrastHigh/16x16/apps/{gnome-power-manager.png => mate-power-manager.png} (100%)
+ rename icon-themes/ContrastHigh/22x22/apps/{gnome-power-manager.png => mate-power-manager.png} (100%)
+ rename icon-themes/ContrastHigh/24x24/apps/{gnome-power-manager.png => mate-power-manager.png} (100%)
+ rename icon-themes/ContrastHigh/256x256/apps/{gnome-power-manager.png => mate-power-manager.png} (100%)
+ rename icon-themes/ContrastHigh/32x32/apps/{gnome-power-manager.png => mate-power-manager.png} (100%)
+ rename icon-themes/ContrastHigh/48x48/apps/{gnome-power-manager.png => mate-power-manager.png} (100%)
+
+diff --git a/icon-themes/ContrastHigh/16x16/apps/Makefile.am b/icon-themes/ContrastHigh/16x16/apps/Makefile.am
+index 2e4fc2db..3ae0a0ad 100644
+--- a/icon-themes/ContrastHigh/16x16/apps/Makefile.am
++++ b/icon-themes/ContrastHigh/16x16/apps/Makefile.am
+@@ -52,7 +52,6 @@ icon_DATA= \
+ 	gnome-documents.png \
+ 	gnome-freecell.png \
+ 	gnome-nettool.png \
+-	gnome-power-manager.png \
+ 	gnome-tweak-tool.png \
+ 	goa-panel.png \
+ 	gok.png \
+@@ -86,6 +85,7 @@ icon_DATA= \
+ 	mate-panel-window-list.png \
+ 	mate-panel-window-menu.png \
+ 	mate-panel-workspace-switcher.png \
++	mate-power-manager.png \
+ 	mate-preferences-desktop-display.png \
+ 	mate-session-properties.png \
+ 	miro.png \
+diff --git a/icon-themes/ContrastHigh/22x22/apps/Makefile.am b/icon-themes/ContrastHigh/22x22/apps/Makefile.am
+index 852a7a7a..802b9806 100644
+--- a/icon-themes/ContrastHigh/22x22/apps/Makefile.am
++++ b/icon-themes/ContrastHigh/22x22/apps/Makefile.am
+@@ -53,7 +53,6 @@ icon_DATA= \
+ 	gnome-documents.png \
+ 	gnome-freecell.png \
+ 	gnome-nettool.png \
+-	gnome-power-manager.png \
+ 	gnome-tweak-tool.png \
+ 	goa-panel.png \
+ 	gok.png \
+@@ -87,6 +86,7 @@ icon_DATA= \
+ 	mate-panel-window-list.png \
+ 	mate-panel-window-menu.png \
+ 	mate-panel-workspace-switcher.png \
++	mate-power-manager.png \
+ 	mate-preferences-desktop-display.png \
+ 	mate-session-properties.png \
+ 	miro.png \
+diff --git a/icon-themes/ContrastHigh/24x24/apps/Makefile.am b/icon-themes/ContrastHigh/24x24/apps/Makefile.am
+index b2ced84d..97eaa964 100644
+--- a/icon-themes/ContrastHigh/24x24/apps/Makefile.am
++++ b/icon-themes/ContrastHigh/24x24/apps/Makefile.am
+@@ -53,7 +53,6 @@ icon_DATA= \
+ 	gnome-documents.png \
+ 	gnome-freecell.png \
+ 	gnome-nettool.png \
+-	gnome-power-manager.png \
+ 	gnome-tweak-tool.png \
+ 	goa-panel.png \
+ 	gok.png \
+@@ -87,6 +86,7 @@ icon_DATA= \
+ 	mate-panel-window-list.png \
+ 	mate-panel-window-menu.png \
+ 	mate-panel-workspace-switcher.png \
++	mate-power-manager.png \
+ 	mate-preferences-desktop-display.png \
+ 	mate-session-properties.png \
+ 	miro.png \
+diff --git a/icon-themes/ContrastHigh/256x256/apps/Makefile.am b/icon-themes/ContrastHigh/256x256/apps/Makefile.am
+index b62320af..4d9db28c 100644
+--- a/icon-themes/ContrastHigh/256x256/apps/Makefile.am
++++ b/icon-themes/ContrastHigh/256x256/apps/Makefile.am
+@@ -42,7 +42,6 @@ icon_DATA= \
+ 	gnome-documents.png \
+ 	gnome-freecell.png \
+ 	gnome-nettool.png \
+-	gnome-power-manager.png \
+ 	gnome-tweak-tool.png \
+ 	goa-panel.png \
+ 	gtranslator.png \
+@@ -60,6 +59,7 @@ icon_DATA= \
+ 	libreoffice-startcenter.png \
+ 	libreoffice-writer.png \
+ 	mate-brightness-applet.png \
++	mate-power-manager.png \
+ 	mate-netspeed-applet.png \
+ 	miro.png \
+ 	multimedia-volume-control.png \
+diff --git a/icon-themes/ContrastHigh/32x32/apps/Makefile.am b/icon-themes/ContrastHigh/32x32/apps/Makefile.am
+index ceea93a1..a8b9281c 100644
+--- a/icon-themes/ContrastHigh/32x32/apps/Makefile.am
++++ b/icon-themes/ContrastHigh/32x32/apps/Makefile.am
+@@ -52,7 +52,6 @@ icon_DATA= \
+ 	gnome-documents.png \
+ 	gnome-freecell.png \
+ 	gnome-nettool.png \
+-	gnome-power-manager.png \
+ 	gnome-tweak-tool.png \
+ 	goa-panel.png \
+ 	gok.png \
+@@ -86,6 +85,7 @@ icon_DATA= \
+ 	mate-panel-window-list.png \
+ 	mate-panel-window-menu.png \
+ 	mate-panel-workspace-switcher.png \
++	mate-power-manager.png \
+ 	mate-preferences-desktop-display.png \
+ 	mate-session-properties.png \
+ 	miro.png \
+diff --git a/icon-themes/ContrastHigh/48x48/apps/Makefile.am b/icon-themes/ContrastHigh/48x48/apps/Makefile.am
+index a58d1fd4..e2be1348 100644
+--- a/icon-themes/ContrastHigh/48x48/apps/Makefile.am
++++ b/icon-themes/ContrastHigh/48x48/apps/Makefile.am
+@@ -52,7 +52,6 @@ icon_DATA= \
+ 	gnome-documents.png \
+ 	gnome-freecell.png \
+ 	gnome-nettool.png \
+-	gnome-power-manager.png \
+ 	gnome-tweak-tool.png \
+ 	goa-panel.png \
+ 	gok.png \
+@@ -86,6 +85,7 @@ icon_DATA= \
+ 	mate-panel-window-list.png \
+ 	mate-panel-window-menu.png \
+ 	mate-panel-workspace-switcher.png \
++	mate-power-manager.png \
+ 	mate-preferences-desktop-display.png \
+ 	mate-session-properties.png \
+ 	mate-starthere.png \
+-- 
+2.21.0
+

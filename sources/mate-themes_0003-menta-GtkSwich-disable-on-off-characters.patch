@@ -1,0 +1,45 @@
+From a0ff220eb17eff79f31e3bc93c8a46eb5eca7a91 Mon Sep 17 00:00:00 2001
+From: raveit65 <mate@raveit.de>
+Date: Sat, 6 Apr 2019 13:14:10 +0200
+Subject: [PATCH 3/6] menta: GtkSwich, disable on/off characters
+
+---
+ desktop-themes/BlueMenta/gtk-3.0/gtk-widgets.css | 5 +++++
+ desktop-themes/Menta/gtk-3.0/gtk-widgets.css     | 5 +++++
+ 2 files changed, 10 insertions(+)
+
+diff --git a/desktop-themes/BlueMenta/gtk-3.0/gtk-widgets.css b/desktop-themes/BlueMenta/gtk-3.0/gtk-widgets.css
+index 4c4fa538..3e1a1d33 100644
+--- a/desktop-themes/BlueMenta/gtk-3.0/gtk-widgets.css
++++ b/desktop-themes/BlueMenta/gtk-3.0/gtk-widgets.css
+@@ -4389,6 +4389,11 @@ switch slider:hover {
+ 	border-image: none;
+ }
+ 
++/* disable on/off characters */
++switch:disabled image {
++    color: transparent;
++}
++
+ /************
+  * Pathbars *
+  ************/
+diff --git a/desktop-themes/Menta/gtk-3.0/gtk-widgets.css b/desktop-themes/Menta/gtk-3.0/gtk-widgets.css
+index f088bdb3..19fdbcba 100644
+--- a/desktop-themes/Menta/gtk-3.0/gtk-widgets.css
++++ b/desktop-themes/Menta/gtk-3.0/gtk-widgets.css
+@@ -4389,6 +4389,11 @@ switch slider:hover {
+ 	border-image: none;
+ }
+ 
++/* disable on/off characters */
++switch:disabled image {
++    color: transparent;
++}
++
+ /************
+  * Pathbars *
+  ************/
+-- 
+2.21.0
+
