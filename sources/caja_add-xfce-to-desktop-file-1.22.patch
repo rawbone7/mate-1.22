@@ -1,0 +1,9 @@
+diff -uprN caja-1.22.0-orig/data/caja-browser.desktop.in caja-1.22.0/data/caja-browser.desktop.in
+--- caja-1.22.0-orig/data/caja-browser.desktop.in	2019-02-08 13:51:59.000000000 +0100
++++ caja-1.22.0/data/caja-browser.desktop.in	2019-02-24 16:57:13.244536755 +0100
+@@ -10,4 +10,4 @@ StartupNotify=false
+ Type=Application
+ Categories=GTK;System;Utility;Core;
+ Keywords=files;browser;manager;MATE;
+-OnlyShowIn=MATE;
++OnlyShowIn=MATE;XFCE;
