@@ -21,8 +21,49 @@
 * mate-backgrounds [[source](https://github.com/mate-desktop/mate-backgrounds)] [[fedora](https://src.fedoraproject.org/rpms/mate-backgrounds)] [[spec](https://src.fedoraproject.org/rpms/mate-backgrounds/raw/master/f/mate-backgrounds.spec)]
 * mate-themes [[source](https://github.com/mate-desktop/mate-themes)] [[fedora](https://src.fedoraproject.org/rpms/mate-themes)] [[spec](https://src.fedoraproject.org/rpms/mate-themes/raw/master/f/mate-themes.spec)]
 * mate-icon-theme [[source](https://github.com/mate-desktop/mate-icon-theme)] [[fedora](https://src.fedoraproject.org/rpms/mate-icon-theme)] [[spec](https://src.fedoraproject.org/rpms/mate-icon-theme/raw/master/f/mate-icon-theme.spec)]
+* mate-applets [[source](https://github.com/mate-desktop/mate-applets)] [[fedora](https://src.fedoraproject.org/rpms/mate-applets)] [[spec](https://src.fedoraproject.org/rpms/mate-applets/raw/master/f/mate-applets.spec)]
 
 
 
 [[source](https://github.com/mate-desktop/)] [[fedora](https://src.fedoraproject.org/rpms/)] [[spec](https://src.fedoraproject.org/rpms//raw/master/f/.spec)]
 [[source]()] [[fedora]()] [[spec]()]
+
+```
+atril
+caja
+caja-dropbox
+caja-extensions
+engrampa
+eom
+libmatekbd
+libmatemixer
+libmateweather
+marco
+mate-applets
+mate-backgrounds
+mate-calc
+mate-common
+mate-control-center
+mate-desktop
+mate-icon-theme
+mate-indicator-applet
+mate-media
+mate-menus
+mate-netbook
+mate-notification-daemon
+mate-panel
+mate-polkit
+mate-power-manager
+mate-screensaver
+mate-sensors-applet
+mate-session-manager
+mate-settings-daemon
+mate-system-monitor
+mate-terminal
+mate-user-guide
+mate-user-share
+mate-utils
+mozo
+pluma
+python-caja
+```

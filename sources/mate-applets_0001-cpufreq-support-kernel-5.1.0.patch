@@ -1,0 +1,63 @@
+From 742651b7fa72c91215584647eb82e58862830365 Mon Sep 17 00:00:00 2001
+From: raveit65 <mate@raveit.de>
+Date: Thu, 9 May 2019 17:36:08 +0200
+Subject: [PATCH] cpufreq: support kernel 5.1.0
+
+---
+ cpufreq/src/cpufreq-monitor-libcpufreq.c               |  9 ++++++++-
+ .../src/cpufreq-selector/cpufreq-selector-libcpufreq.c | 10 +++++++++-
+ 2 files changed, 17 insertions(+), 2 deletions(-)
+
+diff --git a/cpufreq/src/cpufreq-monitor-libcpufreq.c b/cpufreq/src/cpufreq-monitor-libcpufreq.c
+index ed99aa40..9821f2da 100644
+--- a/cpufreq/src/cpufreq-monitor-libcpufreq.c
++++ b/cpufreq/src/cpufreq-monitor-libcpufreq.c
+@@ -36,8 +36,15 @@ static GList   *cpufreq_monitor_libcpufreq_get_available_governors   (CPUFreqMon
+ 
+ G_DEFINE_TYPE (CPUFreqMonitorLibcpufreq, cpufreq_monitor_libcpufreq, CPUFREQ_TYPE_MONITOR)
+ 
+-typedef struct cpufreq_policy                CPUFreqPolicy;
++#if LINUX_VERSION_CODE < KERNEL_VERSION(5, 1, 0)
+ typedef struct cpufreq_available_frequencies CPUFreqFrequencyList;
++#else
++typedef struct cpufreq_frequencies CPUFreqFrequencyList;
++#define cpufreq_get_available_frequencies(cpu) cpufreq_get_frequencies ("available", cpu)
++#define cpufreq_put_available_frequencies(first) cpufreq_put_frequencies (first)
++#endif
++
++typedef struct cpufreq_policy                CPUFreqPolicy;
+ typedef struct cpufreq_available_governors   CPUFreqGovernorList;
+ 
+ static void
+diff --git a/cpufreq/src/cpufreq-selector/cpufreq-selector-libcpufreq.c b/cpufreq/src/cpufreq-selector/cpufreq-selector-libcpufreq.c
+index 62a4a1aa..f3d76e7e 100644
+--- a/cpufreq/src/cpufreq-selector/cpufreq-selector-libcpufreq.c
++++ b/cpufreq/src/cpufreq-selector/cpufreq-selector-libcpufreq.c
+@@ -23,6 +23,7 @@
+ #include <glib/gstdio.h>
+ #include <cpufreq.h>
+ #include <stdlib.h>
++#include <linux/version.h>
+ 
+ #include "cpufreq-selector-libcpufreq.h"
+ 
+@@ -38,8 +39,15 @@ static gboolean cpufreq_selector_libcpufreq_set_governor  (CPUFreqSelector
+ 
+ G_DEFINE_TYPE (CPUFreqSelectorLibcpufreq, cpufreq_selector_libcpufreq, CPUFREQ_TYPE_SELECTOR)
+ 
+-typedef struct cpufreq_policy                CPUFreqPolicy;
++#if LINUX_VERSION_CODE < KERNEL_VERSION(5, 1, 0)
+ typedef struct cpufreq_available_frequencies CPUFreqFrequencyList;
++#else
++typedef struct cpufreq_frequencies CPUFreqFrequencyList;
++#define cpufreq_get_available_frequencies(cpu) cpufreq_get_frequencies ("available", cpu)
++#define cpufreq_put_available_frequencies(first) cpufreq_put_frequencies (first)
++#endif
++
++typedef struct cpufreq_policy                CPUFreqPolicy;
+ typedef struct cpufreq_available_governors   CPUFreqGovernorList;
+ 
+ static void
+-- 
+2.21.0
+
