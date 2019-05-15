@@ -1,4 +1,4 @@
-# mate-1.22
+session-managersession-manager# mate-1.22
 
 ## package list
 
@@ -11,6 +11,7 @@
 * marco [[source](https://github.com/mate-desktop/marco)] [[fedora](https://src.fedoraproject.org/rpms/marco)] [[spec](https://src.fedoraproject.org/rpms/marco/raw/master/f/marco.spec)]
 * mate-menus [[source](https://github.com/mate-desktop/mate-menus)] [[fedora](https://src.fedoraproject.org/rpms/mate-menus)] [[spec](https://src.fedoraproject.org/rpms/mate-menus/raw/master/f/mate-menus.spec)]
 * mate-panel [[source](https://github.com/mate-desktop/mate-panel)] [[fedora](https://src.fedoraproject.org/rpms/mate-panel)] [[spec](https://src.fedoraproject.org/rpms/mate-panel/raw/master/f/mate-panel.spec)]
+* mate-session-manager [[source](https://github.com/mate-desktop/mate-session-manager)] [[fedora](https://src.fedoraproject.org/rpms/mate-session-manager)] [[spec](https://src.fedoraproject.org/rpms/mate-session-manager/raw/master/f/mate-session-manager.spec)]
 
 [[source](https://github.com/mate-desktop/)] [[fedora](https://src.fedoraproject.org/rpms/)] [[spec](https://src.fedoraproject.org/rpms//raw/master/f/.spec)]
 [[source]()] [[fedora]()] [[spec]()]
