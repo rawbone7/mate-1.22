@@ -22,6 +22,7 @@
 * mate-themes [[source](https://github.com/mate-desktop/mate-themes)] [[fedora](https://src.fedoraproject.org/rpms/mate-themes)] [[spec](https://src.fedoraproject.org/rpms/mate-themes/raw/master/f/mate-themes.spec)]
 * mate-icon-theme [[source](https://github.com/mate-desktop/mate-icon-theme)] [[fedora](https://src.fedoraproject.org/rpms/mate-icon-theme)] [[spec](https://src.fedoraproject.org/rpms/mate-icon-theme/raw/master/f/mate-icon-theme.spec)]
 * mate-applets [[source](https://github.com/mate-desktop/mate-applets)] [[fedora](https://src.fedoraproject.org/rpms/mate-applets)] [[spec](https://src.fedoraproject.org/rpms/mate-applets/raw/master/f/mate-applets.spec)]
+* mate-utils [[source](https://github.com/mate-desktop/mate-utils)] [[fedora](https://src.fedoraproject.org/rpms/mate-utils)] [[spec](https://src.fedoraproject.org/rpms/mate-utils/raw/master/f/mate-utils.spec)]
 
 
 
@@ -46,7 +47,6 @@ mate-common
 mate-control-center
 mate-desktop
 mate-icon-theme
-mate-indicator-applet
 mate-media
 mate-menus
 mate-netbook
